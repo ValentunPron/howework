@@ -1,0 +1,21 @@
+.header {
+  grid-area: h; 
+}
+
+.wrapper {
+  display: flex;
+  border-radius: 15px;
+  background-color: rgba(126, 135, 130, 0.1);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%; 
+}
+
+.headerText {
+  font-family: Montserrat;
+  color: rgb(176, 179, 181);
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20%;
+  text-shadow: 1px 3px 9px rgba(121, 121, 121, 0.63);
+}

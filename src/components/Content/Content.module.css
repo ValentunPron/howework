@@ -1,0 +1,7 @@
+.content {
+    grid-area: c;
+   
+    border-radius: 5px;
+    min-height: 400px;
+    height: auto;
+  }

@@ -1,0 +1,31 @@
+.navigation {
+  grid-area: n;
+  background-color: rgba(126, 135, 130, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding-right: 20px;
+  border-radius: 15px; 
+  height: 400px;
+}
+
+.menuItems div {
+  margin: 10px;
+}
+
+.menuItems a {
+  text-decoration: none;
+  color: rgb(176, 179, 181);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+  transition: .3s ease;
+  margin-bottom: 20px;
+}
+
+.menuItems a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 19px;
+  transition: .3s ease;
+}
